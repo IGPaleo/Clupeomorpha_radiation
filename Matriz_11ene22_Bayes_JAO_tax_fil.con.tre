@@ -1,0 +1,128 @@
+#NEXUS
+[written Sat Jan 15 14:25:09 CST 2022 by Mesquite  version 3.61 (build 927) at DESKTOP-8PUNSB3/192.168.1.69]
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=39;
+	TAXLABELS
+		Armigatus_alticorpus Armigatus_brevissimus Armigatus_carrenoae Armigatus_dalmaticus Armigatus_felixi Armigatus_namourensis Armigatus_oligodentatus Codoichthys_carnavalii Diplomystus_birdi Diplomystus_dubertreti Diplomystus_solignaci Ellimma_branneri Ellimma_longipectoralis Ellimmichthys_goodi Ellimmichthys_longicostatus Ellimmichthys_maceioensis Ellimmichthys_spinosus Ornategulum_sardinoides Paraclupea_chetungensis Paraclupea_seilacheri Pseudoellimma_gallae Ranulfoichthys_dorsonudum Rhombichthys_intoccabilis Santanaclupea_silvasantosi Scombroclupea_diminuta Scombroclupea_javieri Scombroclupea_macrophtalma Scombroclupea_occidentalis Scutatoclupea_bacchiai Scutatuspinosus_itapagipensis Sorbinichthys_africanus Sorbinichthys_elusivo Thorectichthys_marocensis Thorectichthys_rhadinus Triplomystus_applegatei Triplomystus_noorae Triplomystus_oligoscutatus Tunisiaclupea_speratus Tycheroichthys_dunveganensis 
+	;
+
+END;
+
+
+BEGIN TREES;
+	Title 'Trees from "Matriz_11ene22_Bayes_JAO_tax.con.tre"';
+	ID 017e5f62dfb61;
+	LINK Taxa = Taxa;
+	TRANSLATE
+[0] 		1 Armigatus_alticorpus,
+[1] 		2 Armigatus_brevissimus,
+[2] 		3 Armigatus_carrenoae,
+[3] 		4 Armigatus_dalmaticus,
+[4] 		5 Armigatus_felixi,
+[5] 		6 Armigatus_namourensis,
+[6] 		7 Armigatus_oligodentatus,
+[7] 		8 Codoichthys_carnavalii,
+[8] 		9 Diplomystus_birdi,
+[9] 		10 Diplomystus_dubertreti,
+[10] 		11 Diplomystus_solignaci,
+[11] 		12 Ellimma_branneri,
+[12] 		13 Ellimma_longipectoralis,
+[13] 		14 Ellimmichthys_goodi,
+[14] 		15 Ellimmichthys_longicostatus,
+[15] 		16 Ellimmichthys_maceioensis,
+[16] 		17 Ellimmichthys_spinosus,
+[17] 		18 Ornategulum_sardinoides,
+[18] 		19 Paraclupea_chetungensis,
+[19] 		20 Paraclupea_seilacheri,
+[20] 		21 Pseudoellimma_gallae,
+[21] 		22 Ranulfoichthys_dorsonudum,
+[22] 		23 Rhombichthys_intoccabilis,
+[23] 		24 Santanaclupea_silvasantosi,
+[24] 		25 Scombroclupea_diminuta,
+[25] 		26 Scombroclupea_javieri,
+[26] 		27 Scombroclupea_macrophtalma,
+[27] 		28 Scombroclupea_occidentalis,
+[28] 		29 Scutatoclupea_bacchiai,
+[29] 		30 Scutatuspinosus_itapagipensis,
+[30] 		31 Sorbinichthys_africanus,
+[31] 		32 Sorbinichthys_elusivo,
+[32] 		33 Thorectichthys_marocensis,
+[33] 		34 Thorectichthys_rhadinus,
+[34] 		35 Triplomystus_applegatei,
+[35] 		36 Triplomystus_noorae,
+[36] 		37 Triplomystus_oligoscutatus,
+[37] 		38 Tunisiaclupea_speratus,
+[38] 		39 Tycheroichthys_dunveganensis;
+	TREE 'con 50 majrule+' = (((((1:0.05191252,2:0.029721,(3:0.04559687,5:0.0284363):0.04686441,4:0.0554169,6:0.06212719,7:0.04102278,8:0.08924156,(9:0.02089733,10:0.09734704):0.21478403,(11:0.08116538,12:0.02376746,13:0.03815878,14:0.03463309,15:0.06278613,(16:0.02176377,39:0.1106896):0.06908725,17:0.08155696,23:0.18640745,19:0.05698119,20:0.05588046,(29:0.1555501,35:0.05099161):0.07579213,(36:0.08010991,37:0.03215895):0.08698081,38:0.1367271):0.1038723,(31:0.04912611,32:0.04164716):0.373231,(33:0.03859384,34:0.02927323):0.06952928):0.1247633,((25:0.02949178,26:0.03347512,27:0.04794096,28:0.06699089):0.2880889,21:0.09563267,24:0.1118393):0.1206579):0.08829386,30:0.06020085):0.1240588,22:0.04165434):0.1718431,18:0.02728844):0.1558217;
+
+END;
+
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1642278310964;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 4640218313018352695;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState false false 100;
+			setPopoutState 300;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 700 464;
+			setLocation 8 8;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		getEmployee  #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			showTaxa #4640218313018352695 #mesquite.lists.TaxonList.TaxonList;
+			tell It;
+				setTaxa #4640218313018352695;
+				getWindow;
+				tell It;
+					useTargetValue off;
+					setTargetValue ;
+					newAssistant  #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 600 392;
+					setLocation 8 8;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+					setActive;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.lists.ColorTaxon.ColorTaxon;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+end;
+
+
